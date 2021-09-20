@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ticker_analysis"
+version = "0.1.0"
+description = ""
+authors = ["gdevy <greg.devyatov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ticker-monitor = {path = "../ticker_monitor"}
+tornado = "^6.1"
+jupyterlab = "^3.1.12"
+yfinance = "^0.1.63"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
